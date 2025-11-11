@@ -64,3 +64,9 @@ button{
     min-height: 100dvh;
     grid-template-rows: auto 1fr auto;
 }
+
+.nuestromenu{
+    width: 152px;
+    height: 183px;
+    
+}
