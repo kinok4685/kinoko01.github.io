@@ -1,10 +1,5 @@
-.logo_principal{
-    align-items: center;
-}
-
 header{
-    display: flex;
-    justify-content: space-between;
+    justify-content: center;
     background-color: #dedad1;
     align-items: center;
     padding: 5px;
@@ -12,17 +7,15 @@ header{
 
 body{
     margin: 0;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .logo{
     display: flex;
 }
 
-h4{
-    display: flex;
-    align-items: center;
-    justify-content: right;
-}
+
 
 p{
     display: flex;
@@ -35,6 +28,9 @@ h2{
     display: flex;
     margin: 0;
     border: none;
+    align-items: center;
+    justify-content: center;
+    
 
 }
 
@@ -45,28 +41,27 @@ button{
     padding: 10px 20px;
     border: none;
     cursor: pointer;
+    align-items: center;
+    justify-content: center;  
 }
 
 .contacto{
     background-color: #2c361d;
     display: flex;
     margin: 0;
-    color: #dedad1;  
+    color: #dedad1;
+    align-items: center;
+    justify-content: center;  
 }
 
 .footer{
     background-color: #480607;
     align-items: center;
-    display: flex;
     margin: 0;
     justify-content: center;
     display: grid;
-    min-height: 100dvh;
+    min-height: 30dvh;
     grid-template-rows: auto 1fr auto;
+    align-items: center;
 }
 
-.nuestromenu{
-    width: 152px;
-    height: 183px;
-    
-}
