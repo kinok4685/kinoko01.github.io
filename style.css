@@ -1,8 +1,10 @@
 header{
+    vertical-align: middle;
     justify-content: center;
     background-color: #dedad1;
     align-items: center;
     padding: 5px;
+    display: flex;
 }
 
 body{
@@ -60,8 +62,5 @@ button{
     margin: 0;
     justify-content: center;
     display: grid;
-    min-height: 30dvh;
-    grid-template-rows: auto 1fr auto;
-    align-items: center;
 }
 
